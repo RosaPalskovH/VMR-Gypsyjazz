@@ -83,11 +83,11 @@ hr {
     color: var(--knap);
 }
 
-#contact-icon {
+.contact-icon {
     color: var(--titel);
 }
 
-#brown-icon {
+.brown-icon {
     color: var(--knap);
 }
 
@@ -311,7 +311,6 @@ footer {
 
 
 
-
 /*Media queries til desktopformat*/
 
 @media screen and (min-width:768px){
@@ -441,7 +440,7 @@ footer {
         margin-right: 0;
     }
  
-    #contact-icon {
+    .contact-icon {
         font-size: 22.82px;
         margin: 30px;
     }
@@ -455,7 +454,7 @@ footer {
     }
     
     /*justere størrelse af ikoner*/
-    #brown-icon{
+    .brown-icon{
         font-size: 50px;
         margin: 3%;
     }
