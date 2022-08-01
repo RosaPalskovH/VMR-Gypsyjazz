@@ -83,11 +83,19 @@ hr {
     color: var(--knap);
 }
 
-.contact-icon {
+.fa-envelope {
     color: var(--titel);
 }
 
-.brown-icon {
+.fa-phone{
+    color: var(--titel);
+}
+
+.fa-circle-chevron-up {
+    color: var(--knap);
+}
+
+.fa-facebook{
     color: var(--knap);
 }
 
@@ -244,7 +252,12 @@ footer {
         margin-right: 0;
     }
 
-    #contact-icon {
+   .fa-envelope {
+        font-size: 22.82px;
+        margin: 30px;
+    }
+
+    .fa-phone{
         font-size: 22.82px;
         margin: 30px;
     }
@@ -267,7 +280,12 @@ footer {
     }
 
     /*scroll til top og facebook link*/
-    #brown-icon {
+    .fa-facebook {
+        font-size: 26.16px;
+        margin-top: 16px;
+    }
+
+    .fa-circle-chevron-up{
         font-size: 26.16px;
         margin-top: 16px;
     }
@@ -440,7 +458,12 @@ footer {
         margin-right: 0;
     }
  
-    .contact-icon {
+    .fa-envelope {
+        font-size: 22.82px;
+        margin: 30px;
+    }
+
+    .fa-phone{
         font-size: 22.82px;
         margin: 30px;
     }
@@ -449,15 +472,26 @@ footer {
     /*Styling af knapper*/
     
     /*tilføj anden farve ved hover på "scroll til top" og Facebook knapper*/
-   #brown-icon:hover {
+   .fa-facebook:hover {
+        color: var(--boks);
+    }
+
+    .fa-circle-chevron-up:hover {
         color: var(--boks);
     }
     
     /*justere størrelse af ikoner*/
-    .brown-icon{
+    .fa-facebook{
         font-size: 50px;
         margin: 3%;
     }
+
+    .fa-circle-chevron-up{
+        font-size: 50px;
+        margin: 3%;
+    }
+
+
 
     /*download knap*/
     #dl-knap {
